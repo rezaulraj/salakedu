@@ -1,0 +1,83 @@
+{
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "candidates": "For Candidates",
+    "clients": "For Clients",
+    "career": "Career Advice",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "banner": {
+    "btext": "Kuliah ke luar negeri? Salak Ed siap membantu anda!"
+  },
+  "home": {
+    "frontText": {
+      "textpri": "Achieve your dream",
+      "textsec": "Plan your future with Salak Ed",
+      "btn": "FREE Consultation"
+    },
+    "second": {
+      "texth": "Study Abroad with Salak Ed",
+      "textp1": "Salak Ed is a college and high school education consultant specializing in study abroad programs in Canada, the United States, Australia, and the United Kingdom.",
+      "textp2": "Our team is not only based in Indonesia but also in the United States and Canada, allowing us to assist students not only before departure but also during settlement and adaptation in their destination countries.",
+      "btn": "About Us"
+    },
+    "third": {
+      "texth": "Find Program and School",
+      "btn1": "Destinasi",
+      "btn2": "Cari Program",
+      "btn3": "Proses"
+    },
+    "forth": {
+      "testfirst": "WHY",
+      "p": "We believe every people deserve to have a meaningful life by pursuing the best education that the world can offer to.",
+      "p2": "25+ years accumulated experience in the industry",
+      "p3": "We have partners in major Canada provinces to help students get settled in Canada",
+      "p4": "90% colleges and universities acceptance rate",
+      "p5": "First-hand experience to study, work, and live in Canada and United States",
+      "p6": "100% employment rate through program career coach",
+      "p7": "We understand it is not easy to live abroad, we are here to help students to get the best living experience"
+    },
+    "fifth": {
+      "title1": "Consultation",
+      "des1": "Discuss your dream and plan to study abroad with our international counselor. This includes country of destination, program interest, GPA, career goal, and also your budget.",
+
+      "title2": "Research and Discovery",
+      "des2": "Find what’s the right fit for you and your future. Explore your school and program options. We will provide the university/college/school information including the yearly tuition, employment rate, requirements, deadlines, and application fee information.",
+
+      "title3": "Gather the documents",
+      "des3": "Our international counselor will ask you to provide documents for school admission, such as: copy of passport, school transcript, English proficiency test, diploma certificate, reference letter.",
+
+      "title4": "Application submission",
+      "des4": "We will submit your school application along with the application fee payment to the school.",
+
+      "title5": "Offer letter",
+      "des5": "Your wait is over, congratulations you have been accepted to your dream school! You will receive the letter of acceptance from the school.",
+
+      "title6": "Tuition fee payment",
+      "des6": "Pay the tuition fee according to the LOA directly to the school.",
+
+      "title7": "Student Visa Application",
+      "des7": "Apply for student visa. With your request, our counselor will assist you in the visa application process.",
+
+      "title8": "Accommodation, Travel, and pick-up",
+      "des8": "We will help you to get the best deals with the help of our partners abroad.",
+
+      "title9": "Pre-departure Assistance",
+      "des9": "You almost there! We will guide you from A to Z what you need to prepare before departure, what to expect when you arrive, and also some tips and tricks for settling the first week in your new life!",
+      "headingbuttom": "Your Education Journey is Unfolds!"
+    },
+    "objective": {
+      "heading": "We believe every people deserve to have a meaningful life by pursuing the best education that the world can offer to.",
+      "icon1": "25+ years accumulated experience in the industry",
+      "icon2": "First-hand experience to study, work, and live in Canada and United States",
+      "icon3": "We have partners in major Canada provinces to help students get settled in Canada",
+      "icon4": "100% employment rate through program career coach",
+      "icon5": "90% colleges and universities acceptance rate",
+      "icon6": "We understand it is not easy to live abroad, we are here to help students to get the best living experience",
+      "why": "why"
+    }
+  }
+}

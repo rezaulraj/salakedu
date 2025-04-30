@@ -1,0 +1,15 @@
+{
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "candidates": "For Candidates",
+    "clients": "For Clients",
+    "career": "Career Advice",
+    "about": "About Us",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "banner": {
+    "btext": "Kuliah ke luar negeri? Salak Ed siap membantu anda!"
+  }
+}
