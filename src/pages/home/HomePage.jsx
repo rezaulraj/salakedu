@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import frontImg from "../../assets/home/frontimg.webp";
-import subfront from "../../assets/home/frontsub.avif";
+import subfront from "../../assets/home/subimage.webp";
 import img1 from "../../assets/home/Group_1.webp";
 import img2 from "../../assets/home/Group_2.webp";
 import img3 from "../../assets/home/Group_3.webp";
@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import { BiSearch } from "react-icons/bi";
 import Stats from "./Stats";
 import Objective from "./Objective";
+import Universitys from "./Universitys";
 const HomePage = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState("tab1");
@@ -34,8 +35,8 @@ const HomePage = () => {
 
   return (
     <div className="bg-white my-6">
-      <div
-        className="bg-cover bg-center py-16 px-2 min-h-[80vh] relative flex items-center justify-center"
+      <section
+        className="bg-cover bg-center py-16 px-2 h-auto md:min-h-[80vh] relative flex items-center justify-center"
         style={{ backgroundImage: `url(${frontImg})` }}
       >
         <div className="absolute inset-0 bg-gray-800/20"></div>
@@ -50,14 +51,14 @@ const HomePage = () => {
             <span relative="relative z-10 ">{t("home.frontText.btn")}</span>
           </button>
         </div>
-      </div>
+      </section>
 
-      <div className="my-10 max-w-screen-xl mx-auto p-4">
+      <section className="my-10 max-w-screen-xl mx-auto p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <img
             src={subfront}
             alt="subimg"
-            className="h-[60vh] w-full shadow rounded-2xl object-cover"
+            className=" w-full shadow rounded-2xl"
           />
           <div className="flex flex-col items-start justify-center space-y-5">
             <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 font-quicksand">
@@ -84,8 +85,8 @@ const HomePage = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="bg-white">
+      </section>
+      <section className="bg-white">
         <div className="my-10 max-w-screen-lg mx-auto p-4 space-y-10">
           <div className="flex flex-col items-center justify-center space-y-2">
             <h3 className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 font-quicksand text-center">
@@ -174,12 +175,18 @@ const HomePage = () => {
             )}
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="bg-[#ecdecc]">
-        <h2 className="text-2xl text-gray-900 font-semibold text-center font-quicksand max-w-screen-md mx-auto pt-6">{t("home.objective.heading")}</h2>
+      <section className="bg-[#ecdecc]">
+        <h2 className="text-2xl text-gray-900 font-semibold text-center font-quicksand max-w-screen-md mx-auto pt-6">
+          {t("home.objective.heading")}
+        </h2>
         <Objective />
-      </div>
+      </section>
+
+      <section>
+        <Universitys />
+      </section>
     </div>
   );
 };

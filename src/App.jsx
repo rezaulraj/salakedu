@@ -1,4 +1,5 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+import "./App.css";
 import { useEffect, useState } from "react";
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
